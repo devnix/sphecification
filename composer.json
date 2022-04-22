@@ -1,0 +1,31 @@
+{
+    "name": "devnix/sphecification",
+    "description": "A specification pattern in PHP with generics",
+    "type": "library",
+    "require": {
+        "php": "~7.4 || ~8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.5",
+        "vimeo/psalm": "^4.22",
+        "friendsofphp/php-cs-fixer": "^3.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devnix\\Sphecification\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Devnix\\SphecificationTest\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pablo Largo Mohedano",
+            "email": "devnix.code@gmail.com"
+        }
+    ]
+}
